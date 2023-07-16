@@ -37,3 +37,39 @@
 5. Технология JavaFX. Особенности архитектуры, отличия от AWT / Swing.
 6. Интернационализация. Локализация. Хранение локализованных ресурсов.
 7. Форматирование локализованных числовых данных, текста, даты и времени. Классы NumberFormat, DateFormat, MessageFormat, ChoiceFormat.
+
+## Примечание
+Если у вас при запуске клиента из idea возникает следующая ошибка: 
+
+![image](https://github.com/VeraKasianenko/Programming_2_term_SE/assets/112972833/0c98feb5-8c97-476b-aeb8-db8f382d83a1)
+
+Необходимо выполнить следующие шаги:
+
+1. Скачать с [сайта](https://gluonhq.com/products/javafx/) sdk
+
+![image](https://github.com/VeraKasianenko/Programming_2_term_SE/assets/112972833/9d19fccf-ff41-4a3e-a6cc-9f0ee5f3ab31)
+
+2. Распаковать архив в удобную папку
+3. Найти в idea `Edit Configurations`
+
+![image](https://github.com/VeraKasianenko/Programming_2_term_SE/assets/112972833/30aaccd8-8998-439b-ab30-2febfd742790)
+
+4. Создать конфигурацию, если у вас ее еще нет
+
+![image](https://github.com/VeraKasianenko/Programming_2_term_SE/assets/112972833/6305b5e2-02d8-415e-bf69-fd13f20711bf)
+
+5. В этом же окне нажать на `Modify options`, чтобы раскрылось меню, и выбрать `Add VM options`
+
+![image](https://github.com/VeraKasianenko/Programming_2_term_SE/assets/112972833/df28db35-2068-44d2-9feb-cefc1d91d00b)
+
+6. В появившемся окне прописать:
+
+``` --module-path "<полный путь до распакованного архива>\javafx-sdk-<версия>\lib" --add-modules javafx.controls,javafx.fxml -Dprism.order=sw ```
+
+![image](https://github.com/VeraKasianenko/Programming_2_term_SE/assets/112972833/55bab948-ebcd-44f0-877c-bc8be20d2591)
+
+7. Нажать `Apply`, теперь сверху появится конфигурация, запуская которую по зеленой стрелочке, вы больше не будете получать ошибку
+
+![image](https://github.com/VeraKasianenko/Programming_2_term_SE/assets/112972833/7c41af7c-acc9-4668-a10e-9a2d20b4fd49)
+
+

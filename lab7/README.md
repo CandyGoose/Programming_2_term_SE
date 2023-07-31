@@ -44,3 +44,51 @@
 8. JDBC. Порядок взаимодействия с базой данных. Класс DriverManager. Интерфейс Connection 
 9. Интерфейсы Statement, PreparedStatement, ResultSet, RowSet 
 10. Шаблоны проектирования.
+
+## Как создать локальную базу данных, чтобы не тестировать на Helios?
+1. Скачайте и установите [PostgreSQL](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads)
+
+**При установке обязательно выберите `PostreSQL Server` и `pgAdmin4`**, далее вводим пароль из файла .pgpass (чтобы его получить подключитесь к гелиосу и пропишите `cat .pgpass`, там будет "\*:\*:\*\:sXXXXXX:пароль"), а все остальное не трогаем и оставляем по умолчанию
+
+![image](https://github.com/VeraKasianenko/Programming_2_term_SE/assets/112972833/f50d02c4-7d82-4b52-bc16-2a66cee7c3a8)
+
+2. Откройте `pgAdmin`
+
+**Примечание.** если у вас возникает такое окно при открытии pgAdmin, попробуйте установить его другую версию с [сайта](https://www.pgadmin.org/download/)
+
+3. Вас встретит окно, где надо ввести пароль из 1 шага
+
+![image](https://github.com/VeraKasianenko/Programming_2_term_SE/assets/112972833/a89d6641-9cbf-4c0a-b7c7-63349c3762df)
+
+4. Разверните вкладку PostgreSQL 15 слева и нажмите ПКМ по `Login/Group Roles - Create - Login/Group Role...`
+
+5. Повторите настройки:
+- General
+   - Name: `sXXXXXX` (XXXXXX - ИСУ)
+- Privileges
+   - Включите всё
+
+![image](https://github.com/VeraKasianenko/Programming_2_term_SE/assets/112972833/5e9204fc-aa11-4ba1-86b1-080dbeb37d53)
+
+![image](https://github.com/VeraKasianenko/Programming_2_term_SE/assets/112972833/baa241e3-3bb3-4429-9898-faa3461dbd38)
+
+Нажмите `Save`
+
+6. Нажмите ПКМ по `Databases - Create - Database...`
+
+![image](https://github.com/VeraKasianenko/Programming_2_term_SE/assets/112972833/6956edb4-f2e4-4053-8b75-ef92313fc3eb)
+
+5. Повторите настройки:
+- General
+   - Database: `studs`
+   - Owner: `sXXXXXX` (XXXXXX - ИСУ)
+
+Нажмите `Save`
+
+![image](https://github.com/VeraKasianenko/Programming_2_term_SE/assets/112972833/765e3dd6-be48-43ca-82c9-96c326200e0e)
+
+Теперь можно запускать jar прямо локально без подлючения к Helios
+
+6. Теперь настроим доступ в idea, для этого открываем проект, справа будет кнопка `Database`
+
+

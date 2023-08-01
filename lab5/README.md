@@ -93,3 +93,41 @@ public enum OrganizationType {
 6. Работа с файлами в Java. Класс java.io.File.
 7. Пакет java.nio - назначение, основные классы и интерфейсы.
 8. Утилита javadoc. Особенности автоматического документирования кода в Java.
+
+## Как создать переменные среды?
+### Создаем локально (для Windows)
+1. Откройте пуск (клавиша Win) и начните вводить `Изменение системных переменных среды`, затем откройте эти настройки
+
+![image](https://github.com/VeraKasianenko/Programming_2_term_SE/assets/112972833/f5b8e732-044d-401a-8feb-295e138a768e)
+
+2. Жмем снизу `Переменные среды...`
+
+![image](https://github.com/VeraKasianenko/Programming_2_term_SE/assets/112972833/33c6c52b-ed3a-4772-8f58-b2da7b83505f)
+
+3. Создаем новую переменную для пользователя
+
+![image](https://github.com/VeraKasianenko/Programming_2_term_SE/assets/112972833/4b8033bb-0c24-4932-ba1e-441367455bc3)
+
+4. Необходимо указать имя переменной и полный путь __вместе с файлом с коллекцией__ (у меня в лабе имя переменной `lab5`), после нажимаем `OK`
+
+![image](https://github.com/VeraKasianenko/Programming_2_term_SE/assets/112972833/19887281-cdc7-434a-ab69-b6f6ba5d3857)
+
+Готово! 
+
+__Примечание.__ Если у вас была открыта idea или терминал, перезапустите их, иначе они не будут видеть переменную окружения
+
+### Создаем на Helios 
+
+1. Подлючаемся к гелиосу
+2. Прописываем `vi .bash_profile`, откроется текстовый редактор
+3. Здесь прописываем `<имя переменной>="/home/studs/sXXXXXX/<имя файла>"; export <имя переменной>`
+
+Пример для моей лабы: `lab5="/home/studs/s368283/data.xml"; export lab5`
+
+![image](https://github.com/VeraKasianenko/Programming_2_term_SE/assets/112972833/c46f5a9d-7ba0-481a-97e2-d4faef8d847b)
+
+4. Чтобы сохранить файл и выйти из редактора, надо нажать `Esc` и набрать `:wq` (иногда требуется поставить `!` в конце). Если вы хотите выйти без сохранения наберите `:q!`
+
+![image](https://github.com/VeraKasianenko/Programming_2_term_SE/assets/112972833/5bbcdeca-9356-42a6-bf7a-a24f142c5668)
+
+__Теперь у вас есть переменная окружения на гелиосе__

@@ -38,7 +38,35 @@
 6. Интернационализация. Локализация. Хранение локализованных ресурсов.
 7. Форматирование локализованных числовых данных, текста, даты и времени. Классы NumberFormat, DateFormat, MessageFormat, ChoiceFormat.
 
-## Примечание
+
+## Интерфейс
+
+![image](https://github.com/VeraKasianenko/Programming_2_term_SE/assets/112972833/a3138ea8-572b-4eba-b12d-bfbdce481d1b)
+
+![image](https://github.com/VeraKasianenko/Programming_2_term_SE/assets/112972833/edffd07b-85ac-42c8-9a61-60897f06abeb)
+
+![image](https://github.com/VeraKasianenko/Programming_2_term_SE/assets/112972833/006fe833-84f4-47af-87c5-09738189ccfe)
+
+![image](https://github.com/VeraKasianenko/Programming_2_term_SE/assets/112972833/ea7a436e-604d-4710-9ab7-19a00d23c7ec)
+
+![image](https://github.com/VeraKasianenko/Programming_2_term_SE/assets/112972833/38753012-6696-4918-a05b-501a2200cf9a)
+
+## Примечания
+### Как пробросить порты?
+
+Подключитесь к Helios, используя команду
+```
+ssh -L <локальный порт>:localhost:<порт сервера> sXXXXXX@helios.cs.ifmo.ru -p 2222
+```
+
+Пример для моей лабы:
+```
+ssh -L 65435:localhost:65435 s368283@helios.cs.ifmo.ru -p 2222
+```
+
+Готово!
+
+### Ошибка JavaFX
 Если у вас при запуске клиента из idea возникает следующая ошибка: 
 
 ![image](https://github.com/VeraKasianenko/Programming_2_term_SE/assets/112972833/0c98feb5-8c97-476b-aeb8-db8f382d83a1)
@@ -72,4 +100,15 @@
 
 ![image](https://github.com/VeraKasianenko/Programming_2_term_SE/assets/112972833/7c41af7c-acc9-4668-a10e-9a2d20b4fd49)
 
+### Ошибка при авторизации `Login or password is incorrect`
 
+![image](https://github.com/VeraKasianenko/Programming_2_term_SE/assets/112972833/6109ac0e-c233-4392-95f0-c2022784d77b)
+
+1. Неправильный пароль
+2. Устаревшая таблица БД `users`, которую необходимо создать заново
+- Подключаемся к Helios
+- Прописываем `touch drop.sql`, затем `vi drop.sql`, откроется текстовый редактор
+- Здесь пишем `drop table users;` и сохраняем, нажимая `Esc` и прописывая `:wq!` (или `:q!`, если вам надо выйти без изменений)
+- Прописываем `psql -h pg -d studs`, а после `\i drop.sql`, это удалит таблицу `users`
+- Запускаем сервер, после этого всё должно заработать (правда клиентам надо заново регистрироваться)
+3. Если ничего не помогло, ошибка где-то еще

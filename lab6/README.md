@@ -65,3 +65,18 @@
 7. Интерфейс Serializable. Объектный граф, сериализация и десериализация полей и методов. 
 8. Java Stream API. Создание конвейеров. Промежуточные и терминальные операции. 
 9. Шаблоны проектирования: Decorator, Iterator, Factory method, Command, Flyweight, Interpreter, Singleton, Strategy, Adapter, Facade, Proxy.
+
+
+## Как пробросить порты?
+
+Подключитесь к Helios, используя команду
+```
+ssh -L <локальный порт>:localhost:<порт сервера> sXXXXXX@helios.cs.ifmo.ru -p 2222
+```
+
+Пример для моей лабы:
+```
+ssh -L 65435:localhost:65435 s368283@helios.cs.ifmo.ru -p 2222
+```
+
+Готово!

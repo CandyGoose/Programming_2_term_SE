@@ -1,0 +1,162 @@
+00:01:37.399 [Thread-1] INFO  Server.Server - Консоль запущена.
+00:01:37.399 [main] INFO  Server.Server - Сервер запущен.
+00:01:51.850 [main] INFO  Server.Server - Сервер получил соединение от клиента.
+00:01:54.077 [main] INFO  Server.Server - Клиент прислал запрос
+00:01:54.246 [Thread-2] INFO  Server.Server - Сервер отправил ответ клиенту.
+00:01:57.088 [main] INFO  Server.Server - Клиент прислал запрос
+00:01:57.358 [Thread-3] INFO  Server.Server - Сервер отправил ответ клиенту.
+00:02:04.869 [main] INFO  Server.Server - Клиент прислал запрос
+00:02:04.878 [Thread-4] INFO  Server.Server - Сервер отправил ответ клиенту.
+00:02:05.356 [main] INFO  Server.Server - Клиент прислал запрос
+00:02:05.356 [ForkJoinPool-1-worker-9] INFO  Server.Server - Клиент отключился.
+00:02:10.097 [main] INFO  Server.Server - Сервер получил соединение от клиента.
+00:02:15.303 [main] INFO  Server.Server - Клиент прислал запрос
+00:02:15.438 [Thread-6] INFO  Server.Server - Сервер отправил ответ клиенту.
+00:02:18.110 [main] INFO  Server.Server - Клиент прислал запрос
+00:02:18.255 [Thread-7] INFO  Server.Server - Сервер отправил ответ клиенту.
+00:02:21.417 [main] INFO  Server.Server - Клиент прислал запрос
+00:02:21.552 [Thread-8] INFO  Server.Server - Сервер отправил ответ клиенту.
+00:02:32.064 [main] INFO  Server.Server - Клиент прислал запрос
+00:02:32.066 [Thread-9] INFO  Server.Server - Сервер отправил ответ клиенту.
+00:02:32.067 [main] INFO  Server.Server - Клиент прислал запрос
+00:02:32.321 [Thread-10] INFO  Server.Server - Сервер отправил ответ клиенту.
+00:02:32.322 [main] INFO  Server.Server - Клиент прислал запрос
+00:02:32.325 [Thread-11] INFO  Server.Server - Сервер отправил ответ клиенту.
+00:02:32.330 [main] INFO  Server.Server - Клиент прислал запрос
+00:02:32.471 [Thread-12] INFO  Server.Server - Сервер отправил ответ клиенту.
+00:02:35.665 [main] INFO  Server.Server - Клиент прислал запрос
+00:02:35.666 [Thread-13] INFO  Server.Server - Сервер отправил ответ клиенту.
+00:02:36.151 [main] INFO  Server.Server - Клиент прислал запрос
+00:02:36.151 [ForkJoinPool-1-worker-9] INFO  Server.Server - Клиент отключился.
+00:02:41.286 [main] INFO  Server.Server - Сервер получил соединение от клиента.
+00:02:44.942 [main] INFO  Server.Server - Клиент прислал запрос
+00:02:45.074 [Thread-15] INFO  Server.Server - Сервер отправил ответ клиенту.
+00:02:49.968 [main] INFO  Server.Server - Клиент прислал запрос
+00:02:50.215 [Thread-16] INFO  Server.Server - Сервер отправил ответ клиенту.
+00:02:53.817 [main] INFO  Server.Server - Клиент прислал запрос
+00:02:53.961 [Thread-17] INFO  Server.Server - Сервер отправил ответ клиенту.
+00:03:16.747 [main] INFO  Server.Server - Клиент прислал запрос
+00:03:16.750 [Thread-18] INFO  Server.Server - Сервер отправил ответ клиенту.
+00:03:16.752 [main] INFO  Server.Server - Клиент прислал запрос
+00:03:16.886 [Thread-19] INFO  Server.Server - Сервер отправил ответ клиенту.
+00:03:16.888 [main] INFO  Server.Server - Клиент прислал запрос
+00:03:16.890 [Thread-20] INFO  Server.Server - Сервер отправил ответ клиенту.
+00:03:16.895 [main] INFO  Server.Server - Клиент прислал запрос
+00:03:17.039 [Thread-21] INFO  Server.Server - Сервер отправил ответ клиенту.
+00:03:19.849 [main] INFO  Server.Server - Клиент прислал запрос
+00:03:19.989 [Thread-22] INFO  Server.Server - Сервер отправил ответ клиенту.
+00:03:21.837 [main] INFO  Server.Server - Клиент прислал запрос
+00:03:21.975 [Thread-23] INFO  Server.Server - Сервер отправил ответ клиенту.
+00:03:36.409 [main] INFO  Server.Server - Клиент прислал запрос
+00:03:36.411 [Thread-24] INFO  Server.Server - Сервер отправил ответ клиенту.
+00:03:36.412 [main] INFO  Server.Server - Клиент прислал запрос
+00:03:36.550 [Thread-25] INFO  Server.Server - Сервер отправил ответ клиенту.
+00:03:36.552 [main] INFO  Server.Server - Клиент прислал запрос
+00:03:36.554 [Thread-26] INFO  Server.Server - Сервер отправил ответ клиенту.
+00:03:36.555 [main] INFO  Server.Server - Клиент прислал запрос
+00:03:36.806 [Thread-27] INFO  Server.Server - Сервер отправил ответ клиенту.
+00:03:38.917 [main] INFO  Server.Server - Клиент прислал запрос
+00:03:39.172 [Thread-28] INFO  Server.Server - Сервер отправил ответ клиенту.
+00:16:04.406 [Thread-1] INFO  Server.Server - Консоль запущена.
+00:16:04.406 [main] INFO  Server.Server - Сервер запущен.
+00:16:15.211 [main] INFO  Server.Server - Сервер получил соединение от клиента.
+00:16:16.234 [main] INFO  Server.Server - Клиент прислал запрос
+00:16:16.407 [Thread-2] INFO  Server.Server - Сервер отправил ответ клиенту.
+00:16:26.530 [main] INFO  Server.Server - Клиент прислал запрос
+00:16:26.852 [Thread-3] INFO  Server.Server - Сервер отправил ответ клиенту.
+00:16:29.111 [main] INFO  Server.Server - Клиент прислал запрос
+00:16:29.251 [Thread-4] INFO  Server.Server - Сервер отправил ответ клиенту.
+00:19:08.961 [main] INFO  Server.Server - Сервер запущен.
+00:19:08.961 [Thread-1] INFO  Server.Server - Консоль запущена.
+00:19:40.498 [main] INFO  Server.Server - Сервер получил соединение от клиента.
+00:19:43.845 [main] INFO  Server.Server - Клиент прислал запрос
+00:19:44.121 [Thread-2] INFO  Server.Server - Сервер отправил ответ клиенту.
+00:19:45.033 [main] INFO  Server.Server - Клиент прислал запрос
+00:19:45.034 [Thread-3] INFO  Server.Server - Сервер отправил ответ клиенту.
+00:19:45.036 [main] INFO  Server.Server - Клиент прислал запрос
+00:19:45.199 [Thread-4] INFO  Server.Server - Сервер отправил ответ клиенту.
+00:19:45.221 [main] INFO  Server.Server - Клиент прислал запрос
+00:19:45.223 [Thread-5] INFO  Server.Server - Сервер отправил ответ клиенту.
+00:19:45.228 [main] INFO  Server.Server - Клиент прислал запрос
+00:19:45.489 [Thread-6] INFO  Server.Server - Сервер отправил ответ клиенту.
+00:21:25.682 [Thread-1] INFO  Server.Server - Консоль запущена.
+00:21:25.682 [main] INFO  Server.Server - Сервер запущен.
+00:21:35.657 [main] INFO  Server.Server - Сервер получил соединение от клиента.
+00:21:36.936 [main] INFO  Server.Server - Клиент прислал запрос
+00:21:37.158 [Thread-2] INFO  Server.Server - Сервер отправил ответ клиенту.
+00:21:39.310 [main] INFO  Server.Server - Клиент прислал запрос
+00:21:39.482 [Thread-3] INFO  Server.Server - Сервер отправил ответ клиенту.
+00:22:45.534 [Thread-1] INFO  Server.Server - Консоль запущена.
+00:22:45.534 [main] INFO  Server.Server - Сервер запущен.
+00:22:56.665 [main] INFO  Server.Server - Сервер получил соединение от клиента.
+00:22:58.297 [main] INFO  Server.Server - Клиент прислал запрос
+00:22:58.458 [Thread-2] INFO  Server.Server - Сервер отправил ответ клиенту.
+00:23:00.636 [main] INFO  Server.Server - Клиент прислал запрос
+00:23:00.785 [Thread-3] INFO  Server.Server - Сервер отправил ответ клиенту.
+00:23:05.119 [main] INFO  Server.Server - Клиент прислал запрос
+00:23:05.124 [Thread-4] INFO  Server.Server - Сервер отправил ответ клиенту.
+00:23:05.125 [main] INFO  Server.Server - Клиент прислал запрос
+00:23:05.380 [Thread-5] INFO  Server.Server - Сервер отправил ответ клиенту.
+00:23:05.382 [main] INFO  Server.Server - Клиент прислал запрос
+00:23:05.383 [Thread-6] INFO  Server.Server - Сервер отправил ответ клиенту.
+00:23:05.385 [main] INFO  Server.Server - Клиент прислал запрос
+00:23:05.528 [Thread-7] INFO  Server.Server - Сервер отправил ответ клиенту.
+00:23:08.355 [main] INFO  Server.Server - Клиент прислал запрос
+00:23:08.541 [Thread-8] INFO  Server.Server - Сервер отправил ответ клиенту.
+00:23:10.372 [main] INFO  Server.Server - Клиент прислал запрос
+00:23:10.623 [Thread-9] INFO  Server.Server - Сервер отправил ответ клиенту.
+00:24:27.469 [main] INFO  Server.Server - Сервер запущен.
+00:24:27.469 [Thread-1] INFO  Server.Server - Консоль запущена.
+00:24:37.390 [main] INFO  Server.Server - Сервер получил соединение от клиента.
+00:24:38.783 [main] INFO  Server.Server - Клиент прислал запрос
+00:24:38.799 [Thread-2] INFO  Server.Server - Сервер отправил ответ клиенту.
+00:24:38.799 [main] INFO  Server.Server - Клиент прислал запрос
+00:24:39.063 [Thread-3] INFO  Server.Server - Сервер отправил ответ клиенту.
+00:24:39.064 [main] INFO  Server.Server - Клиент прислал запрос
+00:24:39.066 [Thread-4] INFO  Server.Server - Сервер отправил ответ клиенту.
+00:24:39.068 [main] INFO  Server.Server - Клиент прислал запрос
+00:24:39.326 [Thread-5] INFO  Server.Server - Сервер отправил ответ клиенту.
+00:24:42.540 [main] INFO  Server.Server - Клиент прислал запрос
+00:24:42.888 [Thread-6] INFO  Server.Server - Сервер отправил ответ клиенту.
+00:25:03.992 [main] INFO  Server.Server - Клиент прислал запрос
+00:25:03.994 [Thread-7] INFO  Server.Server - Сервер отправил ответ клиенту.
+00:25:03.995 [main] INFO  Server.Server - Клиент прислал запрос
+00:25:04.142 [Thread-8] INFO  Server.Server - Сервер отправил ответ клиенту.
+00:25:04.144 [main] INFO  Server.Server - Клиент прислал запрос
+00:25:04.146 [Thread-9] INFO  Server.Server - Сервер отправил ответ клиенту.
+00:25:04.148 [main] INFO  Server.Server - Клиент прислал запрос
+00:25:04.292 [Thread-10] INFO  Server.Server - Сервер отправил ответ клиенту.
+00:25:31.438 [Thread-1] INFO  Server.Server - Консоль запущена.
+00:25:31.438 [main] INFO  Server.Server - Сервер запущен.
+00:25:41.937 [main] INFO  Server.Server - Сервер получил соединение от клиента.
+00:25:52.165 [main] INFO  Server.Server - Клиент прислал запрос
+00:25:52.371 [Thread-2] INFO  Server.Server - Сервер отправил ответ клиенту.
+00:25:54.037 [main] INFO  Server.Server - Клиент прислал запрос
+00:25:54.206 [Thread-3] INFO  Server.Server - Сервер отправил ответ клиенту.
+01:28:55.182 [Thread-1] INFO  Server.Server - Консоль запущена.
+01:28:55.182 [main] INFO  Server.Server - Сервер запущен.
+01:29:14.939 [main] INFO  Server.Server - Сервер получил соединение от клиента.
+01:29:19.701 [main] INFO  Server.Server - Клиент прислал запрос
+01:29:20.041 [Thread-2] INFO  Server.Server - Сервер отправил ответ клиенту.
+01:29:22.132 [main] INFO  Server.Server - Клиент прислал запрос
+01:29:22.490 [Thread-3] INFO  Server.Server - Сервер отправил ответ клиенту.
+01:29:47.043 [main] INFO  Server.Server - Клиент прислал запрос
+01:29:47.310 [Thread-4] INFO  Server.Server - Сервер отправил ответ клиенту.
+01:29:49.459 [main] INFO  Server.Server - Клиент прислал запрос
+01:29:49.819 [Thread-5] INFO  Server.Server - Сервер отправил ответ клиенту.
+01:30:03.340 [main] INFO  Server.Server - Клиент прислал запрос
+01:30:03.342 [Thread-6] INFO  Server.Server - Сервер отправил ответ клиенту.
+01:30:03.346 [main] INFO  Server.Server - Клиент прислал запрос
+01:30:03.597 [Thread-7] INFO  Server.Server - Сервер отправил ответ клиенту.
+01:30:03.600 [main] INFO  Server.Server - Клиент прислал запрос
+01:30:03.602 [Thread-8] INFO  Server.Server - Сервер отправил ответ клиенту.
+01:30:03.606 [main] INFO  Server.Server - Клиент прислал запрос
+01:30:03.882 [Thread-9] INFO  Server.Server - Сервер отправил ответ клиенту.
+01:30:05.922 [main] INFO  Server.Server - Клиент прислал запрос
+01:30:06.156 [Thread-10] INFO  Server.Server - Сервер отправил ответ клиенту.
+01:39:01.623 [main] INFO  Server.Server - Клиент прислал запрос
+01:39:01.626 [Thread-11] INFO  Server.Server - Сервер отправил ответ клиенту.
+01:39:01.634 [main] INFO  Server.Server - Клиент прислал запрос
+01:39:01.636 [Thread-12] INFO  Server.Server - Сервер отправил ответ клиенту.
+01:39:02.178 [main] INFO  Server.Server - Клиент прислал запрос
+01:39:02.180 [ForkJoinPool-1-worker-11] INFO  Server.Server - Клиент отключился.

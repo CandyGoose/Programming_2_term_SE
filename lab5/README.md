@@ -98,19 +98,19 @@ public enum OrganizationType {
 ### Создаем локально (для Windows)
 1. Откройте пуск (клавиша Win) и начните вводить `Изменение системных переменных среды`, затем откройте эти настройки
 
-![image](https://github.com/VeraKasianenko/Programming_2_term_SE/assets/112972833/f5b8e732-044d-401a-8feb-295e138a768e)
+![image](img/img1.png)
 
 2. Жмем снизу `Переменные среды...`
 
-![image](https://github.com/VeraKasianenko/Programming_2_term_SE/assets/112972833/33c6c52b-ed3a-4772-8f58-b2da7b83505f)
+![image](img/img2.png)
 
 3. Создаем новую переменную для пользователя
 
-![image](https://github.com/VeraKasianenko/Programming_2_term_SE/assets/112972833/4b8033bb-0c24-4932-ba1e-441367455bc3)
+![image](img/img3.png)
 
 4. Необходимо указать имя переменной и полный путь __вместе с файлом с коллекцией__ (у меня в лабе имя переменной `lab5`), после нажимаем `OK`
 
-![image](https://github.com/VeraKasianenko/Programming_2_term_SE/assets/112972833/19887281-cdc7-434a-ab69-b6f6ba5d3857)
+![image](img/img4.png)
 
 Готово! 
 
@@ -124,10 +124,10 @@ __Примечание.__ Если у вас была открыта idea или
 
 Пример для моей лабы: `lab5="/home/studs/s368283/data.xml"; export lab5`
 
-![image](https://github.com/VeraKasianenko/Programming_2_term_SE/assets/112972833/c46f5a9d-7ba0-481a-97e2-d4faef8d847b)
+![image](img/img5.png)
 
 4. Чтобы сохранить файл и выйти из редактора, надо нажать `Esc` и набрать `:wq` (иногда требуется поставить `!` в конце). Если вы хотите выйти без сохранения наберите `:q!`
 
-![image](https://github.com/VeraKasianenko/Programming_2_term_SE/assets/112972833/5bbcdeca-9356-42a6-bf7a-a24f142c5668)
+![image](img/img6.png)
 
 __Теперь у вас есть переменная окружения на гелиосе__

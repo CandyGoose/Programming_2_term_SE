@@ -150,8 +150,8 @@ __Порядок выполнения работы:__
 
 Я использую переменные окружения для подключения к БД.
 
-![image](https://github.com/VeraKasianenko/Programming_2_term_SE/assets/112972833/3be6738a-f408-49fc-81f0-68c8ab5a06dc)
+![image](img/img.png)
 
-Подробнее о том, как их создавать рассказано [здесь](https://github.com/VeraKasianenko/Programming_2_term_SE/tree/main/lab5) ниже описания лабораторной
+Подробнее о том, как их создавать рассказано [здесь](https://github.com/CandyGoose/Programming_2_term_SE/tree/main/lab5) ниже описания лабораторной
 
 Еще на гелиосе в директории, откуда запускается джарник сервера, надо создать папку `logs` с файлом `log.log`, чтобы сервер не ругался на логгер.

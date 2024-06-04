@@ -5,7 +5,7 @@
 1. Интерфейс должен быть реализован с помощью библиотеки JavaFX 
 2. Графический интерфейс клиентской части должен поддерживать `русский`, `румынский`, `венгерский` и `английский (Индия)` языки / локали. Должно обеспечиваться корректное отображение чисел, даты и времени в соответстии с локалью. Переключение языков должно происходить без перезапуска приложения. Локализованные ресурсы должны храниться в `классе`.
 
-Доработать программу из [лабораторной работы №7](https://github.com/VeraKasianenko/Programming_2_term_SE/tree/main/lab7) следующим образом:
+Доработать программу из [лабораторной работы №7](https://github.com/CandyGoose/Programming_2_term_SE/tree/main/lab7) следующим образом:
 
 Заменить консольный клиент на клиент с графическим интерфейсом пользователя(GUI).
 
@@ -41,15 +41,15 @@
 
 ## Интерфейс
 
-![image](https://github.com/VeraKasianenko/Programming_2_term_SE/assets/112972833/a3138ea8-572b-4eba-b12d-bfbdce481d1b)
+![image](img/img1.png)
 
-![image](https://github.com/VeraKasianenko/Programming_2_term_SE/assets/112972833/edffd07b-85ac-42c8-9a61-60897f06abeb)
+![image](img/img2.png)
 
-![image](https://github.com/VeraKasianenko/Programming_2_term_SE/assets/112972833/006fe833-84f4-47af-87c5-09738189ccfe)
+![image](img/img3.png)
 
-![image](https://github.com/VeraKasianenko/Programming_2_term_SE/assets/112972833/ea7a436e-604d-4710-9ab7-19a00d23c7ec)
+![image](img/img4.png)
 
-![image](https://github.com/VeraKasianenko/Programming_2_term_SE/assets/112972833/38753012-6696-4918-a05b-501a2200cf9a)
+![image](img/img5.png)
 
 ## Примечания
 ### Как пробросить порты?
@@ -69,40 +69,40 @@ ssh -L 65435:localhost:65435 s368283@helios.cs.ifmo.ru -p 2222
 ### Ошибка JavaFX
 Если у вас при запуске клиента из idea возникает следующая ошибка: 
 
-![image](https://github.com/VeraKasianenko/Programming_2_term_SE/assets/112972833/0c98feb5-8c97-476b-aeb8-db8f382d83a1)
+![image](img/img6.png)
 
 Необходимо выполнить следующие шаги:
 
 1. Скачать с [сайта](https://gluonhq.com/products/javafx/) sdk
 
-![image](https://github.com/VeraKasianenko/Programming_2_term_SE/assets/112972833/9d19fccf-ff41-4a3e-a6cc-9f0ee5f3ab31)
+![image](img/img7.png)
 
 2. Распаковать архив в удобную папку
 3. Найти в idea `Edit Configurations`
 
-![image](https://github.com/VeraKasianenko/Programming_2_term_SE/assets/112972833/30aaccd8-8998-439b-ab30-2febfd742790)
+![image](img/img8.png)
 
 4. Создать конфигурацию, если у вас ее еще нет
 
-![image](https://github.com/VeraKasianenko/Programming_2_term_SE/assets/112972833/6305b5e2-02d8-415e-bf69-fd13f20711bf)
+![image](img/img9.png)
 
 5. В этом же окне нажать на `Modify options`, чтобы раскрылось меню, и выбрать `Add VM options`
 
-![image](https://github.com/VeraKasianenko/Programming_2_term_SE/assets/112972833/df28db35-2068-44d2-9feb-cefc1d91d00b)
+![image](img/img10.png)
 
 6. В появившемся окне прописать:
 
 ``` --module-path "<полный путь до распакованного архива>\javafx-sdk-<версия>\lib" --add-modules javafx.controls,javafx.fxml -Dprism.order=sw ```
 
-![image](https://github.com/VeraKasianenko/Programming_2_term_SE/assets/112972833/55bab948-ebcd-44f0-877c-bc8be20d2591)
+![image](img/img11.png)
 
 7. Нажать `Apply`, теперь сверху появится конфигурация, запуская которую по зеленой стрелочке, вы больше не будете получать ошибку
 
-![image](https://github.com/VeraKasianenko/Programming_2_term_SE/assets/112972833/7c41af7c-acc9-4668-a10e-9a2d20b4fd49)
+![image](img/img12.png)
 
 ### Ошибка при авторизации `Login or password is incorrect`
 
-![image](https://github.com/VeraKasianenko/Programming_2_term_SE/assets/112972833/6109ac0e-c233-4392-95f0-c2022784d77b)
+![image](img/img13.png)
 
 1. Неправильный пароль
 2. Устаревшая таблица БД `users`, которую необходимо создать заново
